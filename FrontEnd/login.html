@@ -1,0 +1,68 @@
+<Html>
+    <Head>
+        <Title>
+            User Login
+        </Title>
+     <style>
+         body{
+            background-position: center;
+  background-size: cover;
+  background-image: url("bak.jpg");
+  min-height: 100%;
+         }
+         .container{
+             display: flex;
+             flex-direction: row;
+             align-items: center;
+         }
+         .teacher{
+             height:100%;
+             width:50%;
+             align-self: center;
+             margin-top: 10%;
+             margin-left:9%;
+         }
+         .student{
+            height:100%;
+             width:50%;
+             align-self: center;
+             margin-top: 10%;
+         }
+         h1{
+             margin-left:9%;
+             margin-bottom: 5%;
+         }
+         .inputName{
+             border-radius :10px;
+             width:500;
+             height:30;
+             font-size: 15;
+         }
+         .button{
+            border-radius :10px;
+             width:200;
+            margin-left: 130;
+             height:30;
+         }
+         h1{
+             color: #fff;
+             
+         }
+     </style>
+    </Head>
+    <body>
+        <div class="container">
+            <div class="teacher">
+            <h1>Teachers can Login Here!</h1>
+            <input class="inputName" name="user name" placeholder="User Name" color="#fff"/><br><br>
+            <input id="password" class="inputName" type="password" name="password"  placeholder="Password" color="#fff" /><br><br>
+            <a href="teacher.html"><button class="button" style="color: black;text-decoration-color: black;">Submit</button></a>
+        </div>
+            <div class="student"> <h1>Students can Login Here!</h1>
+                <input class="inputName" name="user name" placeholder="User Name" color="#fff"/><br><br>
+                <input  id="password" class="inputName"type="password" name="password"  placeholder="Password" color="#fff"/><br><br>
+                <a href="student.html"><button class="button" style="color: black;text-decoration-color: black;">Submit</button></a>
+            </div>
+        </div>
+    </body>
+</Html>
